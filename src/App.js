@@ -11,7 +11,7 @@ class Test extends React.Component {
     //render函数中的this已经被react内部作了修正
     //这里的this就是指向当前的组件实例对象
     //所以箭头函数中的this直接沿用，也是指向组件的实例对象
-    return <button onClick={() => this.handler()}>Click</button>
+    return <button onClick={() => this.handler()}>Click me!!!</button>
   }
 }
 function App () {
