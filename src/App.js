@@ -1,6 +1,5 @@
 import React from "react"
 class Test extends React.Component {
-
   //1. 错误写法修正方法2：
   handler () {
     console.log(this)
