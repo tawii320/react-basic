@@ -17,7 +17,7 @@ class Test extends React.Component {
 function App () {
   return (
     <div>
-      <Test></Test>
+      <Test />
     </div>
   )
 }
